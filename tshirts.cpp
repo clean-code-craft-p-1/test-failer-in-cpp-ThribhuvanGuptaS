@@ -21,7 +21,7 @@ namespace TShirtSize{
     }
 }
 
-void TestTShirtSize(){
+void testTShirtSize(){
     assert(TShirtSize::size(37) == 'S');
     assert(TShirtSize::size(38) == 'S');
     assert(TShirtSize::size(40) == 'M');
@@ -32,7 +32,7 @@ void TestTShirtSize(){
 
 int main()
 {
-    TestTShirtSize();
+    testTShirtSize();
     std::cout << "All is well (maybe!)\n";
     return 0;
 }
