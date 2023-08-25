@@ -57,7 +57,7 @@ namespace WeatherSpace
 
         double TemperatureInC() const override
         {
-            return 18;
+            return 26;
         }
 
         int WindSpeedKMPH() const override
